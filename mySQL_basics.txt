@@ -1,0 +1,51 @@
+My SQl
+
+mysql-ctl cli; - enter MySQL server (specific for cloud9)
+
+CREATE DATABASE <databaseName>;
+DROP DATABASE <databaseName>;
+
+USE <databaseName>; - switch between databases;
+SELECT DATABASE() - check which database is in use;
+
+CREATE TABLE tablename
+ (
+  column_name data_type,
+  column_name data_type
+  );
+
+CREATE TABLE tablename2
+    (
+      column_name data_type NOT NULL DEFAULT <value>,
+      column_name data_type NOT NULL DEFAULT <value>
+    );
+
+CREATE TABLE tablename3 (
+   id INT NOT NULL AUTO_INCREMENT,
+   name VARCHAR(100),Pr
+   age INT,
+   PRIMARY KEY (id)
+);
+
+SHOW TABLES;
+SHOW COLUMNS FROM tablename;
+DESC tablename;
+
+DROP TABLE <tablename>; 
+
+INSERT INTO table_name(column_name) VALUES (data);
+
+INSERT INTO table_name 
+                (column_name, column_name) 
+VALUES    (value, value), 
+                (value, value), 
+                (value, value);
+
+SELECT * FROM <tablename>;
+SELECT <column_name>, <column_name> FROM <tablename>;
+SELECT <column_name> AS <name> FROM <tablename>;
+
+UPDATE <tablename> SET <column_name>=<new_value> WHERE <column_name>=<value>;
+
+
+SHOW WARNINGS; 
