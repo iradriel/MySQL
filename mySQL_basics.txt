@@ -19,7 +19,7 @@ CREATE TABLE tablename2
       column_name data_type NOT NULL DEFAULT <value>,
       column_name data_type NOT NULL DEFAULT <value>
     );
-
+T
 CREATE TABLE tablename3 (
    id INT NOT NULL AUTO_INCREMENT,
    name VARCHAR(100),Pr
@@ -46,6 +46,8 @@ SELECT <column_name>, <column_name> FROM <tablename>;
 SELECT <column_name> AS <name> FROM <tablename>;
 
 UPDATE <tablename> SET <column_name>=<new_value> WHERE <column_name>=<value>;
+
+DELETE FROM <tablename> WHERE <conditiion>;
 
 
 SHOW WARNINGS; 
