@@ -19,7 +19,7 @@ CREATE TABLE tablename2
       column_name data_type NOT NULL DEFAULT <value>,
       column_name data_type NOT NULL DEFAULT <value>
     );
-T
+
 CREATE TABLE tablename3 (
    id INT NOT NULL AUTO_INCREMENT,
    name VARCHAR(100),Pr
